@@ -1,0 +1,134 @@
+/********************
+    
+    Assignment 5 Stylesheet
+    Name: Maryam Ayemlo Gambo
+    Date:March 3, 2023
+    Description:Javascript framework using React
+
+*********************/
+
+/* App styles*/
+.App {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background-color: #d5d4d4;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  padding: 10px 50px;
+  border: none;
+  border-radius: 0.4rem;
+  font-weight: 500;
+  font-size: 20px;
+  height: 50px;
+}
+
+button.on {
+  background-color: lightblue;
+  border: 2px solid lightblue;
+  color: black;
+  margin-top: 30px;
+}
+
+button.off {
+  background-color: lightsalmon;
+  border: 2px solid lightsalmon;
+  color: black;
+  margin-top: 30px;
+}
+
+/* top
+.section {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  color: white;
+}
+.section_inputs,
+.section_temperature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.section_inputs > input {
+  border: 0.8px solid white;
+  border-radius: o.4rem;
+  background-color: transparent;
+  color: white;
+  padding: 0.5rem;
+  font-size: 20px;
+  font-weight: 200px;
+  width: 30%;
+}
+.section_inputs > button {
+  padding: 10px 50px;
+  border: none;
+  border-radius: 0.4rem;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: white;
+  height: 45px;
+  color: black;
+}
+
+.left-temp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-temp > h3 {
+  font-size: 15px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+.temperature > h1 {
+  font-size: 60px;
+}
+
+/* bottom*/
+/*Descriptions styles*/
+.bottomStyle {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  width: 82%;
+  margin: 10px auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1rem;
+  border-radius: 0.4rem;
+  color: white;
+}
+
+.description_card-icon {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 12px;
+}
+
+.description_card-icon > h4 {
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 1024px) {
+  .section_descriptions {
+    grid-template-columns: 1fr 1fr;
+  }
+}
